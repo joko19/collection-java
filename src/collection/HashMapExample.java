@@ -1,25 +1,20 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package collection;
-
 import java.util.HashMap;
 
 /**
  *
  * @author joko
  */
-public class Collection {
-
-    /**
-     * @param args the command line arguments
-     */
-   public static void main(String[] args) {
+public class HashMapExample {
+    public static void main(String[] args) {
         HashMap<String,String> fruitBowl = new HashMap<String, String>();
         
         addElements(fruitBowl);
-        findElement(fruitBowl, "Cherry");
+        findElement(fruitBowl, "Banana");
     }//end method main
     
     static void displayElements(HashMap<String, String> fruitBowl) {
@@ -43,5 +38,4 @@ public class Collection {
         else
             System.out.println("There is no " + fruit + " in the bowl");
     }//end method findElement
-    
 }
